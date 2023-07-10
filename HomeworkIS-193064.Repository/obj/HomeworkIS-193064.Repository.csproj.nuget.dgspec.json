@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ivanaskovska/Dropbox/Mac/Downloads/HomeworkIS-193064/HomeworkIS-193064.Repository/HomeworkIS-193064.Repository.csproj": {}
+  },
+  "projects": {
+    "/Users/ivanaskovska/Dropbox/Mac/Downloads/HomeworkIS-193064/HomeworkIS-193064.Domain/HomeworkIS-193064.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ivanaskovska/Dropbox/Mac/Downloads/HomeworkIS-193064/HomeworkIS-193064.Domain/HomeworkIS-193064.Domain.csproj",
+        "projectName": "HomeworkIS-193064.Domain",
+        "projectPath": "/Users/ivanaskovska/Dropbox/Mac/Downloads/HomeworkIS-193064/HomeworkIS-193064.Domain/HomeworkIS-193064.Domain.csproj",
+        "packagesPath": "/Users/ivanaskovska/.nuget/packages/",
+        "outputPath": "/Users/ivanaskovska/Dropbox/Mac/Downloads/HomeworkIS-193064/HomeworkIS-193064.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ivanaskovska/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.305/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ivanaskovska/Dropbox/Mac/Downloads/HomeworkIS-193064/HomeworkIS-193064.Repository/HomeworkIS-193064.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ivanaskovska/Dropbox/Mac/Downloads/HomeworkIS-193064/HomeworkIS-193064.Repository/HomeworkIS-193064.Repository.csproj",
+        "projectName": "HomeworkIS-193064.Repository",
+        "projectPath": "/Users/ivanaskovska/Dropbox/Mac/Downloads/HomeworkIS-193064/HomeworkIS-193064.Repository/HomeworkIS-193064.Repository.csproj",
+        "packagesPath": "/Users/ivanaskovska/.nuget/packages/",
+        "outputPath": "/Users/ivanaskovska/Dropbox/Mac/Downloads/HomeworkIS-193064/HomeworkIS-193064.Repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ivanaskovska/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/ivanaskovska/Dropbox/Mac/Downloads/HomeworkIS-193064/HomeworkIS-193064.Domain/HomeworkIS-193064.Domain.csproj": {
+                "projectPath": "/Users/ivanaskovska/Dropbox/Mac/Downloads/HomeworkIS-193064/HomeworkIS-193064.Domain/HomeworkIS-193064.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.305/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

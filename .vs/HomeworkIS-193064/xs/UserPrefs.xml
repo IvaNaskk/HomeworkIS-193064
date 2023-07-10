@@ -1,0 +1,71 @@
+﻿<Properties StartupConfiguration="{57A89B69-1CFF-4508-B3C8-B9912DBFC6B7}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.HomeworkIS-193064 PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HomeworkIS-193064.Repository/Implementation/Repository.cs">
+    <Files>
+      <File FileName="HomeworkIS-193064/Views/Shared/_Layout.cshtml" />
+      <File FileName="HomeworkIS-193064/Views/Shared/_Layout.cshtml.css" />
+      <File FileName="HomeworkIS-193064/Views/_ViewImports.cshtml" />
+      <File FileName="HomeworkIS-193064/Views/_ViewStart.cshtml" />
+      <File FileName="HomeworkIS-193064/Views/Ticket/AddToCart.cshtml" />
+      <File FileName="HomeworkIS-193064/Views/Ticket/Create.cshtml" />
+      <File FileName="HomeworkIS-193064/Views/Ticket/Delete.cshtml" />
+      <File FileName="HomeworkIS-193064/Views/Ticket/Details.cshtml" />
+      <File FileName="HomeworkIS-193064/Views/Ticket/Edit.cshtml" />
+      <File FileName="HomeworkIS-193064/Views/Ticket/Index.cshtml" />
+      <File FileName="HomeworkIS-193064/Views/Movie/Create.cshtml" />
+      <File FileName="HomeworkIS-193064/Views/Movie/Delete.cshtml" />
+      <File FileName="HomeworkIS-193064/Views/Movie/Details.cshtml" />
+      <File FileName="HomeworkIS-193064/Views/Movie/Edit.cshtml" />
+      <File FileName="HomeworkIS-193064/Views/Movie/Index.cshtml" />
+      <File FileName="HomeworkIS-193064/Views/ShoppingCart/Index.cshtml" />
+      <File FileName="HomeworkIS-193064/Views/Shared/_LoginPartial.cshtml" />
+      <File FileName="HomeworkIS-193064/ScaffoldingReadMe.txt" Line="1" Column="1" />
+      <File FileName="HomeworkIS-193064.Repository/Implementation/Repository.cs" Line="17" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HomeworkIS-193064" expanded="True">
+            <Node name="NuGet.Config files" expanded="True" />
+            <Node name="HomeworkIS-193064" expanded="True">
+              <Node name="Areas" expanded="True">
+                <Node name="Identity" expanded="True">
+                  <Node name="Pages" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" expanded="True" />
+                </Node>
+                <Node name="ShoppingCart" expanded="True" />
+                <Node name="Ticket" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="HomeworkIS-193064.Domain" expanded="True">
+              <Node name="Domain models" expanded="True" />
+              <Node name="DTO" expanded="True" />
+              <Node name="Identity" expanded="True" />
+            </Node>
+            <Node name="HomeworkIS-193064.Repository" expanded="True">
+              <Node name="Implementation" expanded="True">
+                <Node name="Repository.cs" selected="True" />
+              </Node>
+              <Node name="Interface" expanded="True" />
+            </Node>
+            <Node name="HomeworkIS-193064.Service" expanded="True">
+              <Node name="Implementation" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

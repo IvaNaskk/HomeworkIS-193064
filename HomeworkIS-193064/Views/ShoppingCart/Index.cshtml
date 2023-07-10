@@ -1,0 +1,60 @@
+﻿@model HomeworkIS_193064.Domain.DTO.ShoppingCartDto
+
+<h1>Shopping Cart</h1>
+
+@if (Model.TicketInShoppingCart.Count == 0)
+{
+        <h3>No tickets in the shopping cart!</h3>
+    }
+else
+{
+        <div class="row">
+            <div class="form-group">
+                <a href="/ShoppingCart/OrderNow" class="btn btn-warning">Order now</a>
+            </div>
+        </div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th class="col">#</th>
+            <th class="col">Quantity</th>
+            <th class="col">Price</th>
+            <th class="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+
+            var i = 1;
+            foreach (var item in Model.TicketInShoppingCart)
+            {
+                <tr>
+                    <td>
+                        @(i++)
+                    </td>                 
+                    <td>
+                        @item.Quantity
+                    </td>
+                    <td>
+                        @item.Ticket.Price
+                    </td>
+                    <td>
+                        <a class="btn btn-danger" href="ShoppingCart/DeleteFromshoppingCart/@item.Ticket.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>Total: </th>
+            <th></th>
+            <th></th>
+            <th>@Model.TotalPrice</th>
+        </tr>
+
+    </tfoot>
+</table>
+}
